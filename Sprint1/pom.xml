@@ -6,6 +6,9 @@
   <packaging>war</packaging>
   <version>1.0-Sprint1</version>
   <name>EmootiBan</name>
+  <properties>
+       <deployurl>http://localhost:8080</deployurl>
+    </properties>
   <url>http://maven.apache.org</url>
     <build>
     <directory>target</directory>
@@ -18,7 +21,7 @@
 		<artifactId>tomcat7-maven-plugin</artifactId>
 		<version>2.2</version>
 		<configuration>
-			<url>http://localhost:8080/manager/text</url>
+			<url>${deployurl}/manager/text</url>
 			<server>TomcatServer</server>
 			<path>/EmootiBan</path>
 		</configuration>
