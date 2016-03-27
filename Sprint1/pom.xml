@@ -18,7 +18,7 @@
 		<artifactId>tomcat7-maven-plugin</artifactId>
 		<version>2.2</version>
 		<configuration>
-			<url>http://localhost:8080/manager/text</url>
+			<url>http://146.185.140.107/manager/text</url>
 			<server>TomcatServer</server>
 			<path>/EmootiBan</path>
 		</configuration>
